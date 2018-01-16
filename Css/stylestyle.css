@@ -1,0 +1,50 @@
+#rows{
+
+margin-top: 100px;
+
+
+}
+
+
+
+#formular{
+
+
+    margin-top: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+legend{
+
+    font-family: 'Indie Flower', cursive;
+}
+
+p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+label{
+
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+li{
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+button{
+
+background-color: #ff002b;
+color: #ffff;
+
+
+}
+
+#impressum{
+
+margin-top:100px;
+    margin-left:300px;
+    margin-right: 300px;
+
+}

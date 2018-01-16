@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+.container{
+   
+}
+
+#rows_home{
+
+margin-top: 100px;
+border: 1px solid black;
+}
+
+li{
+
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#shirts{
+    height: 200px;
+    width: 200px;
+}
+
+#überschrift_about{
+    
+    margin-top: 80px;
+    font-family: 'Indie Flower', cursive;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#text_about{
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#rows_about{
+    margin-top: 50px;
+}
+
+#about_us{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    
+}
+/* img{
+    border: 2px solid rebeccapurple;
+    border-radius: 100px;
+} */
