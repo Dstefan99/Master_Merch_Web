@@ -5,16 +5,12 @@ margin-top: 100px;
 
 }
 
-#shop{
 
-    color: white;
-
-}
 
 #formular{
 
 
-    margin-top: 200px;
+    margin-top: 60px;
     margin-left: 300px;
     margin-right: 300px;
 }
@@ -46,9 +42,8 @@ color: #ffff;
 }
 
 #impressum{
-
-margin-top:100px;
-    margin-left:300px;
-    margin-right: 300px;
-
+    margin-top: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
 }

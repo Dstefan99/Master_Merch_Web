@@ -12,123 +12,167 @@
 
 <body style="background-color: #ebebeb">
 
-    <div class="container">
-
-        <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ff002b;">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
-                        aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-
-                    <a href="../Startseite/home.html">
-                        <img src="bilder/Logo3.png" style="width:50px; height:45px; margin-left:20px" href="" alt="">
-                    </a>
 
 
-                </div>
+    <nav class="navbar navbar-default navbar-fixed-top" style="background-color: #ff002b;">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+                    aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
 
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-
-
-                        <li>
-                            <a href="../Shop/shop.html">Shop</a>
-                        </li>
-                        <li>
-                            <a href="../About/about.html">About</a>
-                        </li>
-                        <li>
-                            <a href="../Formular/contact.html">contact</a>
-                        </li>
-
-                        <li>
-                            <a href="#" id="zehn">ab 10€</a>
-                        </li>
-
-                        <li>
-                            <a href="#" id="fuenfzehn">ab 15€</a>
-                        </li>
-
-                        <li>
-                            <a href="#" id="zwanzig">ab 20€</a>
-                        </li>
-
-
-
-                        </li>
-                    </ul>
-
-
-                </div>
-                <!-- /.navbar-collapse -->
-            </div>
-            <!-- /.container-fluid -->
-        </nav>
-
-
-
-
-
-
-        <div class="row" id="rows">
-
-
-            <div class="col-md-4">
-
-                <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
-
-            </div>
-
-            <div class="col-md-4">
-
-                <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+                <a href="../Startseite/home.html">
+                    <img src="bilder/Logo3.png" style="width:50px; height:45px; margin-left:20px" href="" alt="">
+                </a>
 
 
             </div>
 
-            <div class="col-md-4">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
 
-                <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+
+                    <li>
+                        <a style="color:white;" href="../Shop/shop.html">Shop</a>
+                    </li>
+                    <li>
+                        <a style="color:white;" href="../About/about.html">About</a>
+                    </li>
+                    <li>
+                        <a style="color:white;" href="../Formular/contact.html">contact</a>
+                    </li>
+
+                    <li>
+                        <div data-role="main" class="ui-content">
+                            <form method="post" action="/action_page_post.php">
+                                <div data-role="rangeslider">
+                                    <label style="color:white;" id="shop" for="price-ab">Price:</label>
+                                    <input type="range" name="price-ab" id="price-ab" value="10" min="10" max="30">
+
+                                </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+
+                    </li>
+
+                    <li>
+                        <a href="#" id="fuenfzehn" style="color:white;">ab 15€</a>
+                    </li>
+
+                    <li>
+                        <a href="#" id="zwanzig" style="color:white;">ab 20€</a>
+                    </li>
+
+
+
+                    </li>
+                </ul>
 
 
             </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
+
+
+    <div id="myCarousel" class="carousel slide" style="margin-top:50px;" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="bilder/tshirt.png" style="width:25%" alt="Los Angeles">
+            </div>
+
+            <div class="item">
+                <img src="bilder/tshirt.png" style="width:25%" alt="Chicago">
+            </div>
+
+            <div class="item">
+                <img src="bilder/tshirt.png" style="width:25%" alt="New York">
+            </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+
+    <div class="row text-center" id="rows">
+
+
+        <div class="col-md-4">
+
+            <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+            <p>20€</p>
+        </div>
+
+        <div class="col-md-4">
+
+            <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+            <p>10€</p>
+
+        </div>
+
+        <div class="col-md-4">
+
+            <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+            <p>25€</p>
 
         </div>
 
 
-        <div class="row" id="rows2">
+    </div>
 
 
-            <div class="col-md-4">
-
-                <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
-
-            </div>
-
-            <div class="col-md-4">
-
-                <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+    <div class="row text-center" id="rows2">
 
 
-            </div>
+        <div class="col-md-4">
 
-            <div class="col-md-4">
+            <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+            <p>17€</p>
+        </div>
 
-                <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+        <div class="col-md-4">
 
-
-            </div>
-
+            <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+            <p>19€</p>
 
         </div>
+
+        <div class="col-md-4">
+
+            <img src="bilder/tshirt.png" style="height: 200px; width: 205px; margin-bottom:20px;" alt="">
+            <p>13€</p>
+
+        </div>
+
+
+
 
 
 
