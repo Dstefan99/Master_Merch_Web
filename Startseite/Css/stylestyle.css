@@ -5,9 +5,16 @@ margin-top: 100px;
 
 }
 
+    
+#rowser{
 
+    margin-top: 100px;
+    
+}
 
 #formular{
+
+
     margin-top: 200px;
     margin-left: 300px;
     margin-right: 300px;
@@ -31,6 +38,18 @@ li{
     
 }
 
+h1{
+
+    font-family: 'Indie Flower', cursive;
+    border: red dotted;
+}
+
+span{
+
+    font-size: 50px;
+
+}
+
 button{
 
 background-color: #ff002b;
@@ -39,18 +58,6 @@ color: #ffff;
 
 }
 
-#impressum{
 
-margin-top:100px;
-    margin-left:300px;
-    margin-right: 300px;
 
-}
-h1{
-    
-    width: 420px;
-    font-size: 40px;
-    color: #434758;
-    font-family: 'Josefin Sans', sans-serif;
-    border: 4px dotted #ff002b;
-}
+

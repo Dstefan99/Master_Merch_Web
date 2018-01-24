@@ -24,7 +24,7 @@ li{
 
 #überschrift_about{
     
-    margin-top: 80px;
+    
     font-family: 'Indie Flower', cursive;
     font-size: 60px;
     font-weight: bold;
@@ -36,7 +36,7 @@ li{
 }
 
 #rows_about{
-    margin-top: 50px;
+    margin-top: 60px;
 }
 
 #about_us{
@@ -49,6 +49,19 @@ li{
 .wir{
     border: 2px solid black;
 }
+
+.abstand{
+
+margin-top: 30px;
+font-size: 25px;
+}
+
+.abstand2{
+
+    margin-top: 30px;
+    font-size: 25px;
+    }
+    
 /* img{
     border: 2px solid rebeccapurple;
     border-radius: 100px;
